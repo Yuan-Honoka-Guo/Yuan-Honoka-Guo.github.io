@@ -1,3 +1,19 @@
-# theme: jekyll-theme-minimal
-title: Yuan Guo's Homepage
-description: Let's stick to something interesting!
+# Site Build Settings
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Yuan Guo's Homepage"
+description:	       "Personal Blogs & Projects & Stories"
+author:              "Yuan Guo"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
