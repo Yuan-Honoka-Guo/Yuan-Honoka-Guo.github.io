@@ -7,7 +7,7 @@ tags: [blogs]
 image: arctic-1.jpg
 ---
 
-** this blog belongs to Paul Le **
+**this blog belongs to Paul Le**
 
 # Markdown Support
 
