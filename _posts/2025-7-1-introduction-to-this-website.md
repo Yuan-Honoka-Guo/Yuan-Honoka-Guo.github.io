@@ -13,6 +13,6 @@ I have tried to build a blog website twice before; and they all ended in me not 
 
 ## Why now?
 
-I have to admit that I am kind of stupid to know only recently that Github hosts servers...... So good for me. 
+I have to admit that I am kind of stupid to only recently know that Github hosts servers...... So good for me. 
 
 Thank you Github and Paul Le for making open source Millennial theme.
