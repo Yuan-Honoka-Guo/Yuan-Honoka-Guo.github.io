@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Projects',  url: 'facts'}
+- {name: 'Projects',  url: 'projects'}
 - {name: 'Blogs',     url: 'blogs'}
 - {name: 'Stories',   url: 'stories'}
 - {name: 'About',     url: 'about'}
@@ -31,7 +31,7 @@ pagination:
   next_page: 'Newer'
   previous_page: 'Older'
 
-sharing_button_prompt: ''
+sharing_button_prompt: 'share to SNS if you like ~'
 
 related_posts: 'You may also enjoy...'
 
