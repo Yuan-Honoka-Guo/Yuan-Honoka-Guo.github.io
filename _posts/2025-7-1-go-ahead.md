@@ -4,7 +4,7 @@ title: "A Brief Introduction to This Website"
 author: "Yuan Guo"
 categories: stories
 tags: [stories]
-image: arctic-1.jpg
+image: IMG_0993.jpeg
 ---
 
 ## Fresh Off the Boat

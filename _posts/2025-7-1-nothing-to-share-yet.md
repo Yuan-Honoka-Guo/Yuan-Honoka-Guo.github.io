@@ -4,7 +4,7 @@ title: "Nothing to Share Yet, But Will Have Some Soon!"
 author: "Yuan Guo"
 categories: blogs
 tags: [blogs]
-image: arctic-1.jpg
+image: kon-1.png
 ---
 
 Looking forward to something.

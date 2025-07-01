@@ -4,7 +4,7 @@ title: "A Brief Introduction to This Website"
 author: "Yuan Guo"
 categories: projects
 tags: [projects]
-image: cuba-1.jpg
+image: IMG_6343.jpeg
 ---
 
 ## Fresh Off the Boat
