@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nothing to Share Yet, But Will Have Some Soon!"
+title: "Start Again!"
 author: "Yuan Guo"
 categories: blogs
 tags: [blogs]
