@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">DA-JEPA: imagine in chunks</title>
+  <desc id="desc">Context latents and actions condition a future chunk. Masked slots are revealed over successive rounds. The completed chunk is appended to the trajectory and becomes context for the next chunk.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#477567"/></marker>
+    <pattern id="mask" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#edf1eb"/><path d="M0 9L9 0" stroke="#c9d5cb" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="720" rx="12" fill="#f1f5f0"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#233a36">
+    <text x="62" y="65" font-size="17" letter-spacing="4" fill="#477567">DA-JEPA / METHOD SKETCH</text>
+    <text x="62" y="123" font-size="42" font-weight="700">Imagine in chunks.</text>
+    <text x="62" y="161" font-size="21" fill="#63706c">Continue across chunks. Reveal states within each chunk.</text>
+    <rect x="62" y="211" width="292" height="330" rx="10" fill="#fff" stroke="#d2ddd3"/>
+    <text x="86" y="250" font-size="19" font-weight="700">Observed history</text>
+    <g fill="#477567"><rect x="86" y="276" width="68" height="62" rx="5"/><rect x="164" y="276" width="68" height="62" rx="5"/><rect x="242" y="276" width="68" height="62" rx="5"/></g>
+    <g fill="#fff" text-anchor="middle" font-size="18"><text x="120" y="314">z₁</text><text x="198" y="314">z₂</text><text x="276" y="314">z₃</text></g>
+    <text x="86" y="380" font-size="17" fill="#63706c">Encoded visual states</text>
+    <path d="M86 405H330" stroke="#d2ddd3"/>
+    <text x="86" y="443" font-size="19" font-weight="700">Candidate actions</text>
+    <text x="86" y="481" font-size="18" fill="#63706c">Condition the future chunk</text>
+    <path d="M365 375H415" stroke="#477567" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="432" y="211" width="706" height="330" rx="10" fill="#fff" stroke="#d2ddd3"/>
+    <text x="458" y="250" font-size="19" font-weight="700">Iterative masked latent prediction</text>
+    <text x="458" y="300" font-size="17" fill="#63706c">Start masked</text>
+    <text x="458" y="384" font-size="17" fill="#63706c">Reveal anchors</text>
+    <text x="458" y="468" font-size="17" fill="#63706c">Fill the chunk</text>
+    <g stroke="#c9d5cb" fill="url(#mask)">
+      <rect x="650" y="272" width="96" height="54" rx="5"/><rect x="763" y="272" width="96" height="54" rx="5"/><rect x="876" y="272" width="96" height="54" rx="5"/><rect x="989" y="272" width="96" height="54" rx="5"/>
+      <rect x="763" y="356" width="96" height="54" rx="5"/><rect x="989" y="356" width="96" height="54" rx="5"/>
+    </g>
+    <g fill="#477567"><rect x="650" y="356" width="96" height="54" rx="5"/><rect x="876" y="356" width="96" height="54" rx="5"/></g>
+    <g fill="#477567"><rect x="650" y="440" width="96" height="54" rx="5"/><rect x="763" y="440" width="96" height="54" rx="5"/><rect x="876" y="440" width="96" height="54" rx="5"/><rect x="989" y="440" width="96" height="54" rx="5"/></g>
+    <g fill="#fff" text-anchor="middle" font-size="19"><text x="698" y="475">z₄</text><text x="811" y="475">z₅</text><text x="924" y="475">z₆</text><text x="1037" y="475">z₇</text></g>
+    <path d="M863 550V586H208V550" fill="none" stroke="#477567" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="475" y="622" text-anchor="middle" font-size="18" fill="#477567">Append to history. Generate the next chunk.</text>
+    <text x="62" y="680" font-size="15" letter-spacing="2" fill="#63706c">SUMMER 2026 / AN ARCHIVED RESEARCH EXPERIMENT</text>
+  </g>
+</svg>
